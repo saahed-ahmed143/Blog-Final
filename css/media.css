@@ -1,0 +1,91 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+	.navbar-light .nav-left,
+	.navbar form{
+		display: none;
+	}
+.banner-section .carousel-item h1{
+    font-size: 25px;
+    margin-top: 30px;
+}
+.detail{
+	padding-top: 54%;
+}
+.carousel-control-prev,
+.carousel-control-next{
+	height: 50px;
+    width: 50px;;
+}
+.single-blog .blog-content h1{
+    font-size: 30px;
+}
+.single-blog .blog-content p{
+    font-size: 14px;
+    margin: 0;
+}
+.single-blog .blog-detail{
+    bottom: 10px;
+}
+.single-blog .blog-detail p{
+    float: right;
+    color: #b0b0b0;
+    font-size: 14px;
+    padding-right: 30px;
+}
+.forth-section .col-md-6:last-child{
+	    padding-top: 30px;
+}
+.newsletter h1{
+    font-size: 40px;
+}
+.newsletter p{
+    font-size: 18px;
+}
+
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+.banner-section .carousel-item h1{
+    font-size: 32px;
+}
+.detail{
+	padding-top: 40%;
+}
+.banner-section .carousel-item{
+	padding-top: 35%;
+}
+.carousel-control-prev{
+	height: 50px;
+	width: 50px;
+}
+.carousel-control-next{
+	height: 50px;
+	width: 50px;
+}
+.single-blog .blog-content h1{
+    font-size: 30px;
+}
+.single-blog .blog-content p{
+    font-size: 14px;
+}
+.single-blog .blog-detail{
+    bottom: 10px;
+}
+.forth-section .col-md-6:last-child{
+	    padding-top: 30px;
+}
+
+
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
